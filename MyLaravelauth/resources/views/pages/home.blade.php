@@ -8,6 +8,11 @@
                 <ul>
                     @foreach($cars as $car)
                         <li class="border">
+                            <h3>
+                                <a href="{{ route('car-edit', $car -> id) }}">
+                                    &#9998;
+                                </a>
+                            </h3>
                             {{ $car -> model }}
                             ({{ $car -> name }})
                             -

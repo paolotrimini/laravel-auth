@@ -18,5 +18,8 @@ Auth::routes();
 Route::get('/', 'GuestController@home')
     -> name('home');
 
+Route::get('/car/edit/{id}', 'GuestController@edit')
+    -> name('car-edit');
+
 
 
