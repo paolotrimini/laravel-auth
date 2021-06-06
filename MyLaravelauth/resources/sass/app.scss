@@ -6,3 +6,21 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+body {
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+header {
+    background-color: darkorange;
+}
+
+footer {
+    background-color: yellowgreen;
+}
+

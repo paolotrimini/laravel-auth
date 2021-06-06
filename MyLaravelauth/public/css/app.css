@@ -10942,3 +10942,21 @@ a.text-dark:focus {
   }
 }
 
+body {
+  background-color: darkgoldenrod;
+  color: black;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+header {
+  background-color: darkorange;
+}
+
+footer {
+  background-color: yellowgreen;
+}
+
