@@ -1,6 +1,6 @@
 <header>
     <p>HEADER</p>
-    <a href="{{ route('create-car') }}" class="btb btn-primary">
+    <a href="#">
         CREATE NEW CAR
     </a>
 </header>
