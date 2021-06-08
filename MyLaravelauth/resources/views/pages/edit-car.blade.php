@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-12">
                 <h1>NEW CAR:</h1>
-                <form action="#" method="POST">
+                <form action="{{ route('car-update', $car -> id) }}" method="POST">
 
                     @csrf
                     @method('POST')
